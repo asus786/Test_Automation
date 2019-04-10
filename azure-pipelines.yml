@@ -12,6 +12,7 @@ pool:
 steps:
 - script: echo Hello, world!
 - script: javac src/Hello.java
+- script: cd src
 - script: java Hello
   displayName: 'Run a one-line script'
 
