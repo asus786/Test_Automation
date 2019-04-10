@@ -15,10 +15,5 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-    script: javac src/Hello.java
-    script: dir
-    script: cd out
-    script: dir
-    script: java Hello
+    echo See https://aka.ms/yam
   displayName: 'Run a multi-line script'
