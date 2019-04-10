@@ -13,7 +13,7 @@ steps:
 - script: echo Hello, world!
 - script: javac src/Hello.java
 - script: dir
-- script: cd src
+- script: cd out
 - script: dir
 - script: java Hello
   displayName: 'Run a one-line script'
